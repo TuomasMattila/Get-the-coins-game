@@ -13,7 +13,7 @@
 
 I modeled the whole environment [Figure 1] in Unity, except for the coins, which I made in Blender. The environment consists of a plane, cubes as walls and doors, buttons made from cylinders, and a capsule as an object to jump on. The only light in the environment itself is the Directional Light, but the coins and the enemies are equipped with lights that create dynamic lighting to the environment. The environment has invisible borders on all four sides to prevent the player from jumping off the map.
 
-![](RackMultipart20210724-4-1fevz6_html_a8a0535cb4e19c99.png)
+![](/README images/Picture1.png)
 
 _Figure 1: The environment of the game._
 
@@ -25,7 +25,7 @@ The player character is a random 3rd person character I modeled in blender. I ma
 
 I used several PBR materials from cc0textures.com. All the PBR materials had at least albedo, metalness, roughness, normal and height maps. The capsule, walls, floor, doors, enemies, and coins have a PBR material assigned to them [Figure 2, materials 1-7].
 
-![](RackMultipart20210724-4-1fevz6_html_3fb2ce1ac8c830bd.png)
+![](/README images/Picture2.png)
 
 _Figure 2: Materials used in the project. Materials 1-7 consist of textures downloaded from cc0textures.com. Materials 8-11 were made by me in Unity._
 
@@ -35,7 +35,7 @@ The materials I made myself were some simple one-color materials [Figure 2, mate
 
 Additionally, I used a shader that creates a white outline for the player character whenever it is behind something [Figure 3]. This was done using a free asset from the Unity&#39;s Asset Store called &quot;Quick Outline&quot;. The shader allows the player to always see where the player is.
 
-![](RackMultipart20210724-4-1fevz6_html_26994cbd3bb5736.png)
+![](/README images/Picture3.png)
 
 _Figure 3: The white outline of the character seen through a wall._
 
@@ -47,17 +47,17 @@ The player, enemies and coins have animations. The player has an idle and a runn
 
 I created two mesh models using Blender: the player character [Figure 4] and the coin [Figure 5]. The game character is a simple low-poly model of a random character wearing a cap. The coin is quite self-explanatory: it is a mesh shaped like a cylinder, with a slightly indented circular areas in the middle of the top and the bottom.
 
-![](RackMultipart20210724-4-1fevz6_html_2b468cca37ebf4a9.png)
+![](/README images/Picture4.png)
 
 _Figure 4: Mesh model of the player character._
 
-![](RackMultipart20210724-4-1fevz6_html_660db07e08197485.png)
+![](/README images/Picture5.png)
 
 _Figure 5: Mesh model of the coin._
 
 The buttons [Figure 6] were made directly in Unity, using two cylinders. The other mesh models in the game are Unity&#39;s default 3D objects that I scaled and rotated.
 
-![](RackMultipart20210724-4-1fevz6_html_eaeb24ca5d893dc9.png)
+![](/README images/Picture6.png)
 
 _Figure 6: Mesh model of the button._
 
